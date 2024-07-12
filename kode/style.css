@@ -1,0 +1,257 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent !important;
+  user-select: none;
+}
+:root{
+  --gradient: linear-gradient(180deg, red, green);
+  --box-shadow: 0 4px 16px rgba(0,0,0,.25);
+}
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+html::-webkit-scrollbar{
+  width: 1rem;
+}
+html::-webkit-scrollbar-thumb{
+  background: ghostwhite;
+  border: 1px solid gainsboro;
+}
+body{
+  max-width: 2000px;
+  margin: auto;
+  color: #555;
+}
+h1{
+  font-size: 32px;
+  line-height: 40px;
+  color: navy;
+}
+h2{
+  font-size: 28px;
+  line-height: 36px;
+  color: #333;
+}
+h3{
+  font-size: 24px;
+  line-height: 32px;
+  color: #444;
+}
+img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+p, li, span, a, button{
+  line-height: 24px;
+  font-size: 16px;
+}
+button{
+  background: transparent;
+  cursor: pointer;
+}
+.heading{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: tomato;
+  text-shadow: 2px 2px 2px #555;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5rem;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.flex-down{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.btn{
+  display: inline-block;
+  border: 1px solid navy;
+  color: navy;
+  cursor: pointer;
+  background: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  user-select: none;
+}
+.btn:hover{
+  background: navy;
+  color: #fff;
+}
+.parallax{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url(images/header.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.parallax::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .5;
+}
+.parallax .content{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.gradient-text{
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mt-16{
+  margin-top: 16px;
+}
+.mb-16{
+  margin-bottom: 16px;
+}
+.mr-8{
+  margin-right: 8px;
+}
+/*root responsive*/
+header,
+section,
+main,
+footer{
+  padding: 3rem;
+}
+@media screen and (max-width: 800px){
+  header,
+  section,
+  main,
+  footer{
+    padding: 3rem 2rem;
+  }
+}
+@media screen and (max-width: 500px){
+  header,
+  section,
+  main,
+  footer{
+    padding: 3rem 1rem;
+  }
+  .grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ------------------------- header ------------------------- */
+.header{
+  padding-bottom: 0;
+}
+.header img{
+  max-width: 1000px;
+  height: auto;
+}
+/* responsive */
+@media screen and (max-width: 500px){
+  .header{
+    padding: 0;
+  }
+}
+/* ------------------------- main ------------------------- */
+.main .article > *:not(last-child){
+  margin-bottom: 20px;
+}
+.article ol li,
+.article ul li{
+  list-style-position: inside!important;
+}
+.article ol li:not(last-child),
+.article ul li:not(last-child){
+  margin-bottom: 8px;
+}
+.article ol li p,
+.article ul li p{
+  margin-top: 4px;
+}
+.article a,
+.article a:visited{
+  color: blue;
+}
+.article a:hover{
+  color: navy;
+}
+.article a.whatsapp img{
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  max-height: 150px;
+}
+
+/* ------------------------- footer ------------------------- */
+.footer{
+  background: #000033;
+  color: lightgrey;
+}
+.footer a{
+  color: lightgrey; 
+}
+.footer .container .box img{
+  max-width: 50px;
+  max-height: 50px;
+  display: block;
+  margin: auto;
+}
+.footer .container .box:first-child p{
+  text-align: center;
+}
+.footer .container .box h3{
+  color: ghostwhite;
+  margin-bottom: 16px;
+}
+.footer .container .box .content b{
+  font-size: 18px;
+}
+.footer .container .box a{
+  display: block;
+}
+.footer .container .box a:hover{
+  color: cyan;
+}
+.footer .container .box a:not(last-child){
+  margin-bottom: 4px;
+}
+.footer .copyright{
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255,255,255,10%);
+}
+.footer .copyright p{
+  text-align: center;
+}

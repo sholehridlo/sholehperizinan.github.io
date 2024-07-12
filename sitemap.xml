@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://sholehperizinan.github.io</loc>
+        <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://sholehperizinan.github.io/gambar/logo-sholeh-perizinan.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://sholehperizinan.github.io/gambar/nomor-whatsapp-baru-sholeh-perizinan-085133733744.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://sholehperizinan.github.io/gambar/sampul-sholeh-perizinan.jpg</image:loc>
+        </image:image>
+    </url>
+</urlset>
