@@ -34,6 +34,7 @@ h1{
   font-size: 32px;
   line-height: 40px;
   color: navy;
+  text-shadow: 0 0 2px #000;
 }
 h2{
   font-size: 28px;
@@ -175,6 +176,7 @@ footer{
 .header img{
   max-width: 1000px;
   height: auto;
+  margin: auto;
 }
 /* responsive */
 @media screen and (max-width: 500px){
