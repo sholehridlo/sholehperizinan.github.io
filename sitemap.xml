@@ -15,4 +15,16 @@
             <image:loc>https://sholehperizinan.github.io/gambar/sampul-sholeh-perizinan.jpg</image:loc>
         </image:image>
     </url>
+    <url>
+        <loc>https://sholehperizinan.github.io/biro-jasa-pengurusan-surat-izin-usaha.html</loc>
+        <lastmod>2024-05-02T00:00:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://sholehperizinan.github.io/gambar/poster-biro-jasa-pengurusan-surat-izin-usaha.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://sholehperizinan.github.io/gambar/sampul-biro-jasa-pengurusan-surat-izin-usaha.jpg</image:loc>
+        </image:image>
+    </url>
 </urlset>

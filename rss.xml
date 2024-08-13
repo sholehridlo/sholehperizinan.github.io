@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:image="http://purl.org/rss/1.0/modules/image/">
+    <channel>
+        <title>Artikel Sholeh Perizinan</title>
+        <description>Artikel seputar dunia perizinan usaha dan bisnis dari blog "Sholeh Perizinan".</description>
+        <link>https://sholehperizinan.github.io</link>
+        <atom:link href="https://sholehperizinan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+        <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+        <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+        <!-- Artikel -->
+        <item>
+            <title>Biro Jasa Pengurusan Surat Izin Usaha</title>
+            <description>Permudah pengurusan Surat Izin Usaha Anda dengan jasa profesional. Hemat waktu, hindari kesalahan, dan pastikan legalitas usaha Anda!</description>
+            <link>https://sholehperizinan.github.io/biro-jasa-pengurusan-surat-izin-usaha.html</link>
+            <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+            <guid isPermaLink="true">https://sholehperizinan.github.io/biro-jasa-pengurusan-surat-izin-usaha.html</guid>
+            <enclosure url="https://sholehperizinan.github.io/gambar/poster-biro-jasa-pengurusan-surat-izin-usaha.jpg" type="image/jpeg" />
+        </item>
+    </channel>
+</rss>
